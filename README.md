@@ -2,17 +2,6 @@
 
 A responsive user registration form built with React and styled using Tailwind CSS. The form validates user input with react-hook-form and communicates with an Express backend to handle submissions.
 
-## Table of Contents
-- [Technologies Used](#technologies-used)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-    - [Frontend Setup](#frontend-setup)
-    - [Backend Setup](#backend-setup)
-- [Usage](#usage)
-- [Additional Resources](#additional-resources)
-- [License](#license)
 
 ## Technologies Used
 - **React**
