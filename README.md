@@ -1,16 +1,25 @@
 # React User Registration Form with Express Backend
 
-## A responsive user registration form built with React and styled using Tailwind CSS. The form validates user input with react-hook-form and communicates with an Express backend to handle submissions.
+A responsive user registration form built with React and styled using Tailwind CSS. The form validates user input with react-hook-form and communicates with an Express backend to handle submissions.
 
-
+## Table of Contents
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+    - [Frontend Setup](#frontend-setup)
+    - [Backend Setup](#backend-setup)
+- [Usage](#usage)
+- [Additional Resources](#additional-resources)
+- [License](#license)
 
 ## Technologies Used
-- React
-- Tailwind CSS
-- Express.js
-- Axios
-- react-hook-form
-
+- **React**
+- **Tailwind CSS**
+- **Express.js**
+- **Axios**
+- **react-hook-form**
 
 ## Features
 - User input validation
@@ -18,31 +27,40 @@
 - Integration with a backend API
 - Error handling for existing usernames
 
-
 ## Getting Started
 
 ### Prerequisites
-- Node.js
-- npm
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
 
------
-## The following commands in your terminal:
+### Installation
 
-```bash
-npm create vite@latest
-```
-```bash
-npm install -D tailwindcss postcss autoprefixer
-```
-```bash
-npx tailwindcss init -p
-```
-```bash
-npm i axios
-```
-```bash
-npm i react-hook-form
-```
+#### Frontend Setup
+
+1. Create a new Vite project:
+
+   ```bash
+   npm create vite@latest
+   ```
+
+2. Install Tailwind CSS and its dependencies:
+
+   ```bash
+   npm install -D tailwindcss postcss autoprefixer
+   ```
+
+3. Initialize Tailwind CSS:
+
+   ```bash
+   npx tailwindcss init -p
+   ```
+
+4. Install Axios and react-hook-form:
+
+   ```bash
+   npm install axios react-hook-form
+   ```
+
 
 ## Paste this in tailwind.config.js
 
