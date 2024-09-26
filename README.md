@@ -38,7 +38,7 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 ```bash
-npm i axiosr
+npm i axios
 ```
 ```bash
 npm i react-hook-form
